@@ -15,6 +15,7 @@
 
 .card__back__img img {
   max-width: 361px;
+  width: 100%;
   height: 392px;
   transition-duration: .4s;
 }
@@ -26,6 +27,7 @@
 .opacity__box {
   background-color: #000;
   max-width: 361px;
+  width: 100%;
   height: 392px;
   position: absolute;
   transition-duration: .4s;
