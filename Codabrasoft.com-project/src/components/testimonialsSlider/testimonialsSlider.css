@@ -1,0 +1,105 @@
+.testimonials__slider__box {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+}
+
+.testimonials__slider__box div {
+  width: 100%;
+}
+
+.slide {
+  position: relative;
+}
+
+.slider__paragraph {
+  font-size: 20px;
+  line-height: 38px;
+  margin: 0px 0px 30px 0px;
+}
+
+.slider__author {
+  font-size: 14px;
+  color: #FFFFFFB5;
+}
+
+.author__company {
+  font-size: 14px;
+  color: #747474;
+}
+
+.slider__dots {
+  margin: 50px 0px 0px 0px;
+}
+
+.slider__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 20px 0px 0px;
+}
+
+.slider__items {
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
+}
+
+.slider__items button {
+  font-size: 6px;
+  border-radius: 100%;
+  border: none;
+  height: 12px;
+  cursor: pointer;
+}
+
+.slider__items button:active, .slider__items button:focus {
+  outline: none;
+  background: #1c35d8;
+}
+
+/* Styles for npm react-slick*/
+
+.slick-dots {
+  position: relative !important;
+  bottom: 50px !important;
+  width: 100% !important;
+  height: 50px !important;
+  margin: 80px 0px 0px 0px !important;
+  text-align: center !important;
+  list-style: none !important;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  max-width: 20px;
+  max-height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button::before {
+  color: #fff !important;
+  font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #1c35d8 !important; 
+}

@@ -1,0 +1,69 @@
+.home__title {
+  margin: 70px 0px 0px 0px;
+  color: #fff;
+  max-width: 696px;
+  transition-duration: .35s;
+  transform: translateX(-55%);
+  opacity: 0;
+  animation-name: visible;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-duration: .75s;
+  animation-fill-mode: forwards;
+  animation-delay: .1s;
+}
+
+.title__h2 {
+  font-size: 60px;
+  font-family: 'Overpass', sans-serif;
+  margin: 0px 0px 40px 0px;
+}
+
+.title__paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0px 0px 60px 0px;
+}
+
+.title__btn {
+  width: 275px;
+  height: 64px;
+  border: 3px solid #1c35d8;
+  background-color: #1C35D8;
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: 'Overpass', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  z-index: 0;
+}
+
+.title__btn span {
+  z-index: 2;
+}
+
+@keyframes visible {
+  from {
+    transform: translateX(-55%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .home__title {
+    margin: 70px auto 0px auto;
+  }
+}
+
+@media all and (max-width: 399px) {
+  .home__title {
+    margin: 70px auto 0px auto;
+  }
+  .title__h2 {
+    font-size: 40px;
+  }
+}

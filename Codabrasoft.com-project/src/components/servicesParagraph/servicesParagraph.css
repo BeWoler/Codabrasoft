@@ -1,0 +1,12 @@
+.services__title__paragraph {
+  font-family:  'Roboto', sans-serif;
+  font-size:  16px;
+  color: #747474;
+  margin: 5px 0px 40px 0px;
+}
+
+.services__title__paragraph span {
+  color: #000;
+  font-weight: 700;
+  display:  inline-block;
+}

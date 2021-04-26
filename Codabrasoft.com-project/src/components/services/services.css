@@ -1,0 +1,53 @@
+.services {
+    display: flex;
+    flex-direction:  column;
+    text-align: center;
+    margin: 0px 0px 150px 0px;
+}
+
+.services__box {
+    margin: 0 auto;
+}
+
+.services__title {
+    margin: 0px 0px 100px 0px;
+}
+
+.services__title__h2 {
+    font-family:  'Overpass', sans-serif;
+    font-size:  48px;
+    color: #101010;
+    margin: 0px 0px 20px 0px;
+}
+
+.services__info__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+@media all and (max-width: 1300px) and (min-width: 800px) {
+    .services__info__box {
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 799px) {
+    .services__info__box {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 399px) {
+    .services__box {
+        margin: 0;
+    }
+    .services__info__box {
+        width: 100%;
+        text-align: center;
+    }
+    .services__title__h2 {
+        font-size: 40px;
+    }
+}

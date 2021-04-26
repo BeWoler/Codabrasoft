@@ -1,0 +1,39 @@
+.home {
+    background-image: url(../../img/shutterstock.jpg);
+    height: 960px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0px 0px 120px 0px;
+    z-index: 1;
+}
+
+.background__opacity {
+    min-height: 960px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.home__box {
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+.home__content {
+    padding: 230px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media all and (max-width: 1300px) and (min-width: 800px) {
+    .home__box {
+        width: 100%;
+    }
+}
