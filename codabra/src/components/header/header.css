@@ -103,5 +103,9 @@
 @media all and (max-width: 799px) {
     .burger {
         visibility: visible;
+        z-index: 9;
+    }
+    .header {
+        opacity: 1;
     }
 }
